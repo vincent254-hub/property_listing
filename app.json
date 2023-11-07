@@ -23,6 +23,7 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "description": "A marketplace for all property rentals",
     "web": {
       "favicon": "./assets/favicon.png"
     }

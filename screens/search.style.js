@@ -1,0 +1,57 @@
+import { StyleSheet } from "react-native";
+import {COLORS, SIZES} from "../constants/index";
+
+const styles = StyleSheet.create({
+    searchContainer:{
+        flexDirection:"row",
+        justifyContent:"center",
+        alignContent:"center",
+        backgroundColor:COLORS.secondary,
+        borderRadius:SIZES.medium,
+        marginVertical:SIZES.medium,
+        height:50,
+        marginLeft:12,
+        marginRight:12,       
+
+      },
+
+      searchIcon:{
+        marginHorizontal:10,
+        color:COLORS.gray,
+        marginTop:SIZES.small,
+
+      },
+      searchWrapper:{
+        flex:1,
+        backgroundColor:COLORS.secondary,
+        borderRadius:SIZES.small,
+      },
+
+      searchInput:{
+        fontFamily:"regular",
+        width:"95%",
+        height:"100%",
+        paddingHorizontal:SIZES.small,
+        
+      },
+
+      searchBtn:{
+        width:50,
+        height:"100%",
+        borderRadius:SIZES.medium,
+        justifyContent:"center",
+        alignItems:"center",
+        backgroundColor:COLORS.primary,
+
+      },
+
+      searchImage:{
+        resizeMode:"contain",
+        width:SIZES.width -80,
+        height:SIZES.height -300,
+        opacity:0.9,
+
+      }
+})
+
+export default styles
